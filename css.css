@@ -1,7 +1,17 @@
-h1 {text-align: center;}
-p {text-align: center;}
-.contacts {text-align: center;}
+:root {--main-color:#3FA6BC;
+--text-color: white;}
+body{background-color: var(--main-color);}
+h1 {text-align: center;
+    color: var(--text-color);
+}
+p {text-align: center;
+color: var(--text-color);
+}
+.contacts {text-align: center;
+color: var(--text-color);}
 img {display: block;
 margin: 0 auto;}
 .links {display: flex;
-justify-content: space-evenly;}
+justify-content: space-evenly;
+}
+.links a {color: var(--text-color);}
